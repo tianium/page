@@ -19,11 +19,7 @@ export default defineConfig({
   build: {
     inlineStylesheets: "auto",
   },
-  server: {
-    allowedHosts: ['4321.app.cloudstudio.work'],
-    host: true,
-    port: 4321,
-  },
+  
   site: 'https://tianium.github.io',
   base: '/page',
 });
