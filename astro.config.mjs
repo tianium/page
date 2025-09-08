@@ -24,5 +24,5 @@ export default defineConfig({
     port: 4321,
   },
   site: 'https://tianium.github.io',
-  base: '/page',
+  base: '/page/',
 });
