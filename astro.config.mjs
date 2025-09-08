@@ -5,21 +5,7 @@ import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 
 // https://astro.build/config
-export default defineConfig({
-  integrations: [tailwind(), react()],
-  vite: {
-    resolve: {
-      alias: {
-        "@": "/src",
-        "@components": "/src/components",
-      },
-    },
-  },
-  output: "static",
-  build: {
-    inlineStylesheets: "auto",
-  },
-  
+export default defineConfig({ 
   site: 'https://tianium.github.io',
   base: '/page',
 });
