@@ -23,6 +23,5 @@ export default defineConfig({
     host: true,
     port: 4321,
   },
-  site: 'https://tianium.github.io',
-  base: '/page/',
+  site: 'https://foss.dpdns.org', 
 });
