@@ -24,4 +24,10 @@ export default defineConfig({
     port: 4321,
   },
   site: 'https://foss.dpdns.org', 
+
+  server: {
+    port: 4321,
+    host: true,
+    allowedHosts: ['4321.app.cloudstudio.work'],
+  }
 });
